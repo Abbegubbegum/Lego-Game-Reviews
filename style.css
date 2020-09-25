@@ -5,12 +5,22 @@
 
 header {
   background-color: black;
+  color: white;
   font-family: "PT Serif", serif;
+  padding: 10px;
 }
 
 footer {
   background-color: #444444;
   padding: 16px;
+}
+
+.white {
+  color: white;
+}
+
+.white a:hover {
+  color: #555555;
 }
 
 h1 {
@@ -26,17 +36,33 @@ p {
   max-width: 1000px;
 }
 
-.padding {
-  padding: 16px;
-}
 a {
-  color: white;
   text-decoration: none;
   font-family: "PT Serif", serif;
 }
+
+h5 {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+}
+
+.padding {
+  padding: 16px;
+}
+
+.black {
+  color: black;
+}
+
+.no {
+  margin: 0;
+  padding: 0;
+}
+
 p {
   font-family: "Source Sans Pro", sans-serif;
 }
+
 h3 {
   font-family: "Source Sans Pro", sans-serif;
 }
