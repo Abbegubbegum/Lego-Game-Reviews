@@ -10,6 +10,15 @@ header {
   padding: 10px;
 }
 
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.center {
+  align-items: center;
+}
+
 footer {
   background-color: #444444;
   padding: 16px;
@@ -27,10 +36,6 @@ h1 {
   color: white;
 }
 
-h3 {
-  margin-top: 16px;
-}
-
 p {
   line-height: 18px;
   max-width: 1000px;
@@ -42,8 +47,8 @@ a {
 }
 
 h5 {
-  font-family: "Source Sans Pro", sans-serif;
   font-size: 18px;
+  font-family: "PT Serif", serif;
 }
 
 .padding {
@@ -54,16 +59,11 @@ h5 {
   color: black;
 }
 
-.no {
-  margin: 0;
-  padding: 0;
+article {
+  margin: 16px;
 }
 
 p {
-  font-family: "Source Sans Pro", sans-serif;
-}
-
-h3 {
   font-family: "Source Sans Pro", sans-serif;
 }
 
